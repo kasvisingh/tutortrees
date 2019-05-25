@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Tutor Tree</title>
+   <link href="style.css" rel="stylesheet" />
+      <script src="new.js" defer></script>
+</head>
+
+    
+    <body>
+<header>
+      <img src="tutortree.png" alt="Tutor Tree" id="logoimg" />
+        </header>
+<button class="tablink" onclick="openPage('Home', this, 'rgb(221, 151, 151)')">Home</button>
+<button class="tablink" onclick="openPage('Tutor', this, 'green')" id="defaultOpen">Tutor</button>
+<button class="tablink" onclick="openPage('Services', this, 'pink')">Service</button>
+<button class="tablink" onclick="openPage('Contact', this, 'rgb(152, 221, 222)')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'rgb(232, 181, 181)')">About</button>
+
+<div id="Home" class="tabcontent">
+  <h3>Welcome to Tutor Tree</h3>
+    
+  <p1><b>wer</b>Home is where the heart is..</p1>
+    <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+</div>
+
+<div id="Tutor" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  
+
+
+<div id="About" class="tabcontent">
+
+  <img src="output-onlinepngtools.png" style="width:300px;height:400px;" > 
+    <p> <br><b>About the Founder:</b>Kasvi Singh is a high school student from Design Tech High School. She excels in all her class and even involved in numerous college classes. Kasvi enjoys  getting involved with her school and community. She is part of robotics, model united nations, leadership, yearbook and has started a girls who code club at her school. You can often find her volunteering at the library or other community events. Kasvi is very passionate about music as she sings with the Peninsula Girls Chorus and plays violin with Peninsula Youth Orchestra from a very young age. Some of her other hobbies involve swim, baking, photography and composing. Kasvi's strong suite is in math and science. She has been tutoring since 6th grade and now has created this business so that other students have the opportunity to have a tutor or become a tutor. 
+</p>
+      
+</div>
+        
+<div id="Services" class="tabcontent">
+  <h3>Service</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<script>
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
